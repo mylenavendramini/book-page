@@ -86,8 +86,12 @@ export const ChapterButton = styled(Button)`
 `;
 
 export const BackButton = styled(Button)`
-  width: 50%;
+  width: 30%;
   margin: 1rem;
+
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+  }
 `;
 
 export const Dropdown = styled.div``;

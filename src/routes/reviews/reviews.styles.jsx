@@ -155,6 +155,11 @@ export const BookShelfLink = styled(Link)`
 `;
 
 export const BackButton = styled(Button)`
-  margin-top: 1rem;
+  width: 30%;
+  margin: 1rem;
   margin-bottom: 1rem;
+
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+  }
 `;
