@@ -24,6 +24,10 @@ export const BiographyContainer = styled.div`
       float: none;
       width: 100%;
     }
+
+    @media only screen and (max-width: 550px) {
+      padding: 0rem;
+    }
   }
 
   h1,
@@ -120,6 +124,13 @@ export const BookShelfLink = styled(Link)`
   &:hover {
     color: var(--secondary);
   }
+
+  p {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
 `;
 
 export const BackButton = styled(Button)`
@@ -128,7 +139,7 @@ export const BackButton = styled(Button)`
   margin-bottom: 1rem;
 
   @media only screen and (max-width: 600px) {
-    width: 80%;
+    width: 90%;
   }
 `;
 

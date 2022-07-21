@@ -152,6 +152,13 @@ export const BookShelfLink = styled(Link)`
   &:hover {
     color: var(--secondary);
   }
+
+  p {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
 `;
 
 export const BackButton = styled(Button)`

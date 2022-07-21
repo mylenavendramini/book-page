@@ -68,7 +68,9 @@ const Biography = () => {
                   {" "}
                   <img src={sub.imageUrl} alt={`${sub.name}`} />
                 </BookShelfLink>
-                <BookShelfLink to={sub.id}>{sub.name}</BookShelfLink>
+                <BookShelfLink to={sub.id}>
+                  <p>{sub.name}</p>
+                </BookShelfLink>
               </div>
             ))}
         </AllBooksContainer>
