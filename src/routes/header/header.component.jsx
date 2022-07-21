@@ -3,7 +3,7 @@ import { useOnClickOutside } from "../../hooks";
 import { Outlet } from "react-router-dom";
 import Burger from "../../components/burger/burger.component";
 import Menu from "../../components/menu/menu.component";
-import { HeaderContainer } from "./header.styles";
+import { HeaderContainer, HeaderLink } from "./header.styles";
 
 const Header = () => {
   const node = useRef();
@@ -15,6 +15,9 @@ const Header = () => {
   return (
     <Fragment>
       <HeaderContainer>
+        <HeaderLink to={"/"}>
+          This <br /> Author
+        </HeaderLink>
         <h1>
           This <br /> Author
         </h1>
