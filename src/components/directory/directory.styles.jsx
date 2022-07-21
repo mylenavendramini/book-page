@@ -159,7 +159,11 @@ export const NewsLetter = styled.div`
 
   h1 {
     font-size: 2rem;
-    text-align: justify;
+
+    @media only screen and (max-width: 600px) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
   }
 
   p {
