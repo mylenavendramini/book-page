@@ -13,6 +13,7 @@ export const FirstCapContainer = styled.div`
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1.2rem;
+    text-align: justify;
   }
 `;
 
@@ -80,12 +81,12 @@ export const FirstCapBox = styled.div`
 `;
 
 export const ChapterButton = styled(Button)`
-  width: 30%;
+  width: 50%;
   margin: 1rem;
 `;
 
 export const BackButton = styled(Button)`
-  width: 30%;
+  width: 50%;
   margin: 1rem;
 `;
 

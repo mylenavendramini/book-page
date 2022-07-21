@@ -23,4 +23,8 @@ export const HeaderLink = styled(Link)`
   text-decoration: none;
   margin-left: 13rem;
   margin-top: 3rem;
+
+  @media only screen and (max-width: 600px) {
+    margin-left: 8rem;
+  }
 `;

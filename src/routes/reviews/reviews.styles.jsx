@@ -37,6 +37,7 @@ export const ReviewContainer = styled.div`
   @media only screen and (max-width: 1000px) {
     display: flex;
     flex-direction: column;
+    padding: 0rem;
   }
 
   img {

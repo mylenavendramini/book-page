@@ -65,6 +65,10 @@ export const ProfileContainer = styled.div`
       padding-left: 10rem;
       padding-bottom: 0rem;
     }
+    @media only screen and (max-width: 700px) {
+      padding-left: 5rem;
+      padding-bottom: 0rem;
+    }
   }
 
   p {

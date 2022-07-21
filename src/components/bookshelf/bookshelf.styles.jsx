@@ -36,6 +36,6 @@ export const BookLink = styled(Link)`
 `;
 
 export const BackButton = styled(Button)`
-  width: 30%;
+  width: 50%;
   margin: 1rem;
 `;

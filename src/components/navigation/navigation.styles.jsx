@@ -7,6 +7,10 @@ export const NavigationComponent = styled.div`
   justify-content: space-around;
   align-items: center;
 
+  @media only screen and (max-width: 650px) {
+    display: none;
+  }
+
   a {
     text-decoration: none;
     font-size: 2rem;
