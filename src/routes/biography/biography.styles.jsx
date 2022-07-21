@@ -31,7 +31,8 @@ export const BiographyContainer = styled.div`
   }
 
   h1,
-  h2 {
+  h2,
+  h3 {
     font-size: 2rem;
 
     &:hover {
@@ -46,8 +47,26 @@ export const BiographyContainer = styled.div`
     }
   }
 
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    @media only screen and (max-width: 550px) {
+      display: none;
+    }
+  }
+
   h2 {
     cursor: pointer;
+  }
+
+  h3 {
+    display: none;
+
+    @media only screen and (max-width: 550px) {
+      display: flex;
+    }
   }
 
   p {

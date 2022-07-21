@@ -17,7 +17,7 @@ const BookShelf = () => {
       <BackButton onClick={goToHome}>&larr; Back to Home Page</BackButton>
 
       <BookShelfContainer>
-        <h1>All Author Name's Books</h1>
+        <h1>All This Author's Books</h1>
         {topics.map(({ name, id }) => (
           <div key={id}>
             <BookLink to={id}>&rarr; {name}</BookLink>

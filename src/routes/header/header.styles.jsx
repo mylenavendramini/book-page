@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
   height: 48vh;
@@ -12,19 +11,18 @@ export const HeaderContainer = styled.div`
   background-image: url("https://i.ibb.co/F39BrCj/template.png");
   background-repeat: no-repeat;
   background-size: fill;
-`;
 
-export const HeaderLink = styled(Link)`
-  /* padding-top: 1rem; */
-  font-family: "Edu VIC WA NT Beginner", cursive;
-  font-size: 4.5rem;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  margin-left: 13rem;
-  margin-top: 3rem;
+  h1 {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 4.5rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 13rem;
+    margin-top: 3rem;
 
-  @media only screen and (max-width: 600px) {
-    margin-left: 8rem;
+    @media only screen and (max-width: 600px) {
+      margin-left: 8rem;
+    }
   }
 `;

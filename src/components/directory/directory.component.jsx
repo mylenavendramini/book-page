@@ -71,12 +71,12 @@ const Directory = () => {
       <NewsLetter>
         <h1>Sign up to my newsletter:</h1>
         <p>
-          To receive Author’s monthly newsletter, please fill in the form below
-          and click submit.
+          To receive This Author’s monthly newsletter, please fill in the form
+          below and click submit.
         </p>
         <Form />
         <p>
-          By clicking SUBMIT, I consent to you using my details to send me
+          By clicking SUBMIT, I consent to using my details to send me This
           Author newsletters.
         </p>
       </NewsLetter>

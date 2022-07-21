@@ -25,12 +25,13 @@ const Biography = () => {
     <Fragment>
       <BiographyContainer>
         <div>
+          <h3>Biography</h3>
           <ProfileImg
             src="https://i.ibb.co/GpY7B3N/profile1.png"
             alt="Author Profile"
           />
           <h1>Biography</h1>
-
+          <h4>Life and early career</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam
@@ -51,6 +52,30 @@ const Biography = () => {
             pharetra vel turpis nunc. Aliquam ultrices sagittis orci a
             scelerisque purus semper eget. Lectus arcu bibendum at varius vel
             pharetra vel turpis nunc. Ut diam quam nulla porttitor massa.
+          </p>
+          <h4>Writing career</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam
+            quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo
+            integer malesuada nunc vel. Aliquam ultrices sagittis orci a
+            scelerisque purus semper eget. Lectus arcu bibendum at varius vel
+            pharetra vel turpis nunc. Aliquam ultrices sagittis orci a
+            scelerisque purus semper eget. Lectus arcu bibendum at varius vel
+            pharetra vel turpis nunc. Ut diam quam nulla porttitor massa.
+            Fermentum iaculis eu non diam. Leo integer malesuada nunc vel.
+            Fermentum iaculis eu non diam. Leo integer malesuada nunc vel.
+            Aliquam ultrices sagittis orci a scelerisque purus semper eget.
+          </p>
+          <h4>Literaly influences</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam
+            quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo
+            integer malesuada nunc vel. Aliquam ultrices sagittis orci a
+            scelerisque purus semper eget. Lectus arcu bibendum at varius vel
+            pharetra vel turpis nunc. Aliquam ultrices sagittis orci a
+            scelerisque purus semper eget.
           </p>
           <BackButton onClick={goToHomePage}>
             &larr; Back to Home Page
