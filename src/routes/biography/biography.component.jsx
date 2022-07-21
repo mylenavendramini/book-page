@@ -86,7 +86,7 @@ const Biography = () => {
           {" "}
           <h2 onClick={GoToTopics}>Books</h2>
           {allBooks
-            .filter((_, idx) => idx < 3)
+            .filter((_, idx) => idx < 4)
             .map((sub) => (
               <div key={sub.id}>
                 <BookShelfLink to={`/topics/all/${sub.id}`}>
