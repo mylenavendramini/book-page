@@ -157,6 +157,11 @@ export const NewsLetter = styled.div`
   align-items: center;
   background-color: var(--tertiary);
 
+  @media only screen and (max-width: 600px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   h1 {
     font-size: 2rem;
   }
