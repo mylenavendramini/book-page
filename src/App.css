@@ -1,0 +1,14 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root {
+  --primary: #186096;
+  --secondary: #4a9fd8;
+  --tertiary: #8ac3e9;
+}
