@@ -44,7 +44,7 @@ const Directory = () => {
             pharetra vel turpis nunc. Ut diam quam nulla porttitor massa.
             Fermentum iaculis eu non diam. Leo integer malesuada nunc vel.
           </p>
-          <h4>Love, Author Name</h4>
+          <h4>Love, This Author</h4>
         </div>
       </ProfileContainer>
 
