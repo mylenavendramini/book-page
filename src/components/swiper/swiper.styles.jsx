@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const AllBooksContainer = styled.div`
   width: 100%;
 
-  @media screen and (min-width: 440px) {
+  @media screen and (min-width: 200px) {
     .swiper {
-      width: 440px !important;
+      width: 400px;
     }
   }
 

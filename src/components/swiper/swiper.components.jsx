@@ -29,8 +29,8 @@ export const SwiperAllBooks = () => {
         slidesPerView={6}
         breakpoints={{
           // when window width is >= 640px
-          440: {
-            width: 440,
+          200: {
+            width: 400,
             slidesPerView: 2,
           },
           // when window width is >= 768px
