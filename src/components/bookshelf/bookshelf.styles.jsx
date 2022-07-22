@@ -24,7 +24,7 @@ export const BookLink = styled(Link)`
   letter-spacing: 0.5px;
   line-height: 50px;
   padding: 0 15px 0 15px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--primary);
   text-transform: uppercase;
   cursor: pointer;
@@ -39,7 +39,7 @@ export const BackButton = styled(Button)`
   width: 30%;
   margin: 1rem;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     width: 80%;
   }
 `;

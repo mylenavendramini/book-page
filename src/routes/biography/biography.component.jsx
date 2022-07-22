@@ -27,7 +27,7 @@ const Biography = () => {
         <div>
           <h3>Biography</h3>
           <ProfileImg
-            src="https://i.ibb.co/GpY7B3N/profile1.png"
+            src="https://i.ibb.co/0rZXS03/profile-frame3.png"
             alt="Author Profile"
           />
           <h1>Biography</h1>

@@ -102,7 +102,7 @@ export const AllBooksContainer = styled.div`
   padding: 1rem;
   align-items: center;
   margin: 1rem;
-  border: 1px solid var(--primary);
+  border: 4px solid var(--primary);
 
   a {
     text-decoration: none;
@@ -166,7 +166,7 @@ export const BackButton = styled(Button)`
   margin: 1rem;
   margin-bottom: 1rem;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     width: 80%;
   }
 `;

@@ -34,6 +34,28 @@ export const ProfileContainer = styled.div`
     }
   }
 
+  .typewriting {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-left: 5rem;
+    padding-top: 2rem;
+
+    @media only screen and (max-width: 550px) {
+      display: none;
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+  .typewritingcursor {
+    @media only screen and (max-width: 550px) {
+      display: none;
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
   h1 {
     font-family: "Edu VIC WA NT Beginner", cursive;
     font-size: 2.5rem;
@@ -47,6 +69,18 @@ export const ProfileContainer = styled.div`
 
     @media only screen and (max-width: 1100px) {
       padding-top: 0rem;
+    }
+
+    @media only screen and (max-width: 1100px) {
+      padding-top: 0rem;
+    }
+  }
+
+  h4 {
+    display: none;
+
+    @media only screen and (max-width: 550px) {
+      display: flex;
     }
   }
 

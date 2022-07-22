@@ -3,6 +3,7 @@ import { BookShelfContainer, BookLink, BackButton } from "./bookshelf.styles";
 import { getTopics } from "../../books.data";
 import { Fragment } from "react";
 import { useNavigate } from "react-router-dom";
+import { SlideInLeftDiv, SlideInRightDiv } from "../../animation";
 
 const BookShelf = () => {
   const topics = getTopics();
@@ -17,10 +18,15 @@ const BookShelf = () => {
       <BackButton onClick={goToHome}>&larr; Back to Home Page</BackButton>
 
       <BookShelfContainer>
-        <h1>All This Author's Books</h1>
+        <SlideInLeftDiv>
+          <h1>All This Author's Books</h1>
+        </SlideInLeftDiv>
+
         {topics.map(({ name, id }) => (
           <div key={id}>
-            <BookLink to={id}>&rarr; {name}</BookLink>
+            <SlideInRightDiv>
+              <BookLink to={id}>&rarr; {name}</BookLink>
+            </SlideInRightDiv>
           </div>
         ))}
       </BookShelfContainer>

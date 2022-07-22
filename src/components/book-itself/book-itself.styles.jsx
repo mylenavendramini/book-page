@@ -50,7 +50,7 @@ export const BackButton = styled(Button)`
   width: 30%;
   margin: 1rem;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     width: 80%;
   }
 `;

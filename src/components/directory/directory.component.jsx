@@ -6,12 +6,17 @@ import {
   BookDirectory,
 } from "./directory.styles.jsx";
 
+import { SlideInLeftDiv, PulseDiv } from "../../animation";
+
 import { getAllBooks } from "../../books.data.js";
 
 import { useNavigate } from "react-router-dom";
 
 import Navigation from "../navigation/navigation.component";
 import Form from "../form/form.component";
+
+import Typewriter from "typewriter-effect";
+// import { slideInLeft } from "react-animations";
 
 const Directory = () => {
   const allBooks = getAllBooks();
@@ -25,14 +30,16 @@ const Directory = () => {
     <div>
       <Navigation />
       <ProfileContainer>
-        <div>
+        <SlideInLeftDiv>
           <img
-            src="https://i.ibb.co/GpY7B3N/profile1.png"
+            src="https://i.ibb.co/R22rGdD/profile-frame2.png"
             alt="Author Profile"
           />
-        </div>
+        </SlideInLeftDiv>
         <div>
-          <h1>Welcome!</h1>
+          <PulseDiv>
+            <h1>Welcome!</h1>
+          </PulseDiv>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam
@@ -44,6 +51,20 @@ const Directory = () => {
             pharetra vel turpis nunc. Ut diam quam nulla porttitor massa.
             Fermentum iaculis eu non diam. Leo integer malesuada nunc vel.
           </p>
+          <Typewriter
+            options={{
+              strings: [
+                "With love, This Author",
+                "Con amor, This Author",
+                "Com amor, This Author",
+              ],
+              autoStart: true,
+              loop: true,
+              delay: 100,
+              wrapperClassName: "typewriting",
+              cursorClassName: "typewritingcursor",
+            }}
+          />
           <h4>Love, This Author</h4>
         </div>
       </ProfileContainer>
