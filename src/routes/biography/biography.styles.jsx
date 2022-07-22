@@ -95,6 +95,10 @@ export const AllBooksContainer = styled.div`
   margin: 1rem;
   border: 4px solid var(--primary);
 
+  h2 {
+    text-shadow: 0 0 2px var(--tertiary);
+  }
+
   a {
     text-decoration: none;
   }
@@ -153,7 +157,7 @@ export const BookShelfLink = styled(Link)`
 `;
 
 export const BackButton = styled(Button)`
-  width: 30%;
+  width: 35%;
   margin: 1rem;
   margin-bottom: 1rem;
 

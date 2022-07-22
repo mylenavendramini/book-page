@@ -131,6 +131,7 @@ export const BookDirectory = styled.div`
   h1 {
     font-size: 2rem;
     cursor: pointer;
+    text-shadow: 0 0 2px var(--tertiary);
 
     &:hover {
       color: var(--secondary);

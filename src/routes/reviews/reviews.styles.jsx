@@ -9,6 +9,7 @@ export const ReviewsContainer = styled.div`
   h1 {
     align-self: center;
     cursor: pointer;
+    text-shadow: 0 0 2px var(--tertiary);
   }
 
   a {

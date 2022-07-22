@@ -22,6 +22,7 @@ export const HeaderContainer = styled.div`
     text-decoration: none;
     margin-left: 13rem;
     margin-top: 3rem;
+    text-shadow: 0 0 2px #ffffff;
 
     @media only screen and (max-width: 600px) {
       display: flex;
@@ -39,6 +40,7 @@ export const HeaderLink = styled(Link)`
   text-decoration: none;
   margin-left: 13rem;
   margin-top: 3rem;
+  text-shadow: 0 0 2px #ffffff;
 
   @media only screen and (max-width: 600px) {
     display: none;

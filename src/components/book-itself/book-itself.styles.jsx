@@ -21,6 +21,7 @@ export const BookItSelfContainer = styled.div`
     width: 100%;
     height: auto;
     justify-content: center;
+    filter: drop-shadow(0.2rem 0.2rem 0.7rem black);
   }
 
   img:hover {
@@ -48,9 +49,9 @@ export const BookShelfLink = styled(Link)`
 
 export const BackButton = styled(Button)`
   width: 30%;
-  margin: 1rem;
+  margin: 3rem 0rem 3rem 2rem;
 
-  @media only screen and (max-width: 800px) {
-    width: 80%;
+  @media only screen and (max-width: 900px) {
+    width: 70%;
   }
 `;

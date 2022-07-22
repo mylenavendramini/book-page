@@ -37,9 +37,11 @@ export const StyledMenu = styled.nav`
     text-decoration: none;
     padding: 1rem;
     outline: none;
+    text-shadow: 0 0 10px #ffffff;
 
     &:hover {
       color: var(--secondary);
+      text-shadow: none;
     }
   }
 `;

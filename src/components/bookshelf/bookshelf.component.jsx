@@ -1,11 +1,16 @@
-import { BookShelfContainer, BookLink, BackButton } from "./bookshelf.styles";
+import {
+  BigBookShelfContainer,
+  Teste,
+  BookShelfContainer,
+  BookLink,
+  BackButton,
+} from "./bookshelf.styles";
 
 import { getTopics } from "../../books.data";
-import { Fragment } from "react";
 import { useNavigate } from "react-router-dom";
-import { SlideInLeftDiv, SlideInRightDiv } from "../../animation";
+import { SlideInLeftDiv, PulseDiv } from "../../animation";
 
-import NewsLetter from "../newsletter/newsletter.component";
+import Typewriter from "typewriter-effect";
 
 const BookShelf = () => {
   const topics = getTopics();
@@ -16,22 +21,47 @@ const BookShelf = () => {
   };
 
   return (
-    <Fragment>
+    <BigBookShelfContainer>
+      <Teste>
+        <h1>
+          <Typewriter
+            options={{
+              strings: [
+                "The words that come out of the books only come to life when the reader reads them.",
+                "I'm nothing without the words.",
+                "Reading is the best choice for today.",
+              ],
+              autoStart: true,
+              loop: true,
+              delay: 50,
+              pauseFor: 1000,
+              deleteSpeed: 20,
+              wrapperClassName: "typewriting",
+              cursorClassName: "typewritingcursor",
+            }}
+          />
+        </h1>
+        <h2>
+          The words that come out of the books only come to life when the reader
+          reads them.
+        </h2>
+      </Teste>
+      <SlideInLeftDiv>
+        <h1>All This Author's Books</h1>
+      </SlideInLeftDiv>
       <BookShelfContainer>
-        <SlideInLeftDiv>
-          <h1>All This Author's Books</h1>
-        </SlideInLeftDiv>
         {topics.map(({ name, id }) => (
           <div key={id}>
-            <SlideInRightDiv>
-              <BookLink to={id}>&rarr; {name}</BookLink>
-            </SlideInRightDiv>
+            <PulseDiv>
+              <BookLink to={id}>
+                <p>{name}</p>
+              </BookLink>
+            </PulseDiv>
           </div>
         ))}
       </BookShelfContainer>
       <BackButton onClick={goToHome}>&larr; Back to Home Page</BackButton>
-      <NewsLetter />
-    </Fragment>
+    </BigBookShelfContainer>
   );
 };
 

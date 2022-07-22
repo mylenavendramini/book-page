@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const NavigationComponent = styled.div`
   height: 5vh;
+  margin-top: 2rem;
   padding: 1rem;
   display: flex;
   justify-content: space-around;
@@ -15,6 +16,7 @@ export const NavigationComponent = styled.div`
     text-decoration: none;
     font-size: 2rem;
     color: var(--primary);
+    text-shadow: 0 0 2px var(--tertiary);
 
     &:hover {
       color: var(--secondary);

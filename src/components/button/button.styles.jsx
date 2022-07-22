@@ -12,15 +12,18 @@ export const BaseButton = styled.button`
   text-transform: uppercase;
   font-family: inherit;
   font-weight: bold;
-  /* font-weight: bolder; */
   border: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: drop-shadow(0.2rem 0.2rem 0.7rem var(--secondary));
 
   &:hover {
     background-color: var(--secondary);
+    transform: scale(1.1);
+    /* transition: transform 1s cubic-bezier(0.2, 0.45, 0.45, 0.95); */
+    transition: transform 0.5s;
   }
 `;
 

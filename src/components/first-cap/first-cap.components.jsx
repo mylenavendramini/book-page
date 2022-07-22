@@ -46,14 +46,16 @@ const FirstCap = () => {
         </div>
         <div>
           <h1>{name}</h1>
-          <p>{description}</p>
+          <h3>Description:</h3>
+          <h3>{description}</h3>
           <h3>Pages: {pages} </h3>
           <h3>Date: {date} </h3>
           <h3>Price: $ {price}</h3>
           <h3>
             What the
-            {jornal} is saying: "{review}"
+            {jornal} is saying:
           </h3>
+          <h3> "{review}"</h3>
           <Button buttonType={BUTTON_TYPE_CLASSES.inverted}>
             Buy with Amazon
           </Button>

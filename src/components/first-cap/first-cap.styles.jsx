@@ -9,6 +9,11 @@ export const FirstCapContainer = styled.div`
     font-weight: normal;
   }
 
+  h3 {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
   h4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -41,6 +46,7 @@ export const FirstCapBox = styled.div`
     height: auto;
     justify-content: center;
     align-items: center;
+    filter: drop-shadow(0.5rem 0.5rem 1rem black);
 
     @media only screen and (max-width: 1320px) {
       padding: 0rem 2rem 0rem 0rem;
@@ -74,15 +80,15 @@ export const FirstCapBox = styled.div`
       padding: 0rem 6rem 0rem 6rem;
     }
   }
-
-  p {
-    text-align: justify;
-  }
 `;
 
 export const ChapterButton = styled(Button)`
   width: 30%;
   margin: 1rem;
+
+  &:hover {
+    transform: none;
+  }
 
   @media only screen and (max-width: 800px) {
     width: 80%;
@@ -91,10 +97,10 @@ export const ChapterButton = styled(Button)`
 
 export const BackButton = styled(Button)`
   width: 30%;
-  margin: 1rem;
+  margin: 3rem 0rem 3rem 2rem;
 
-  @media only screen and (max-width: 800px) {
-    width: 80%;
+  @media only screen and (max-width: 900px) {
+    width: 70%;
   }
 `;
 

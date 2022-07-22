@@ -3,6 +3,17 @@ import styled from "styled-components";
 export const AllBooksContainer = styled.div`
   width: 100%;
 
+  img {
+    filter: drop-shadow(0.2rem 0.2rem 0.7rem black);
+  }
+
+  img:hover {
+    cursor: pointer;
+    transform: rotate(2deg);
+    /* transition: transform 1s cubic-bezier(0.2, 0.45, 0.45, 0.95); */
+    transition: transform 0.5s;
+  }
+
   @media screen and (min-width: 200px) {
     .swiper {
       width: 400px;

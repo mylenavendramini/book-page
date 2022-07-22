@@ -8,6 +8,7 @@ export const NewsLetterContainer = styled.div`
 
   h1 {
     font-size: 2rem;
+    text-shadow: 0 0 2px var(--secondary);
 
     @media only screen and (max-width: 600px) {
       padding-left: 2rem;

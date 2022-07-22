@@ -22,8 +22,10 @@ export const FooterLink = styled(Link)`
   color: white;
   text-decoration: none;
   color: white;
+  text-shadow: 0 0 10px #ffffff;
 
   &:hover {
     color: var(--secondary);
+    text-shadow: none;
   }
 `;
