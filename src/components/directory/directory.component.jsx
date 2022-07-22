@@ -1,25 +1,19 @@
-import {
-  ProfileContainer,
-  NewsLetter,
-  BookShelfLink,
-  AllBooksContainer,
-  BookDirectory,
-} from "./directory.styles.jsx";
+import { ProfileContainer, BookDirectory } from "./directory.styles.jsx";
+
+import SwiperAllBooks from "../swiper/swiper.components.jsx";
+import { SwiperReviews } from "../swiper/swiper.components.jsx";
 
 import { SlideInLeftDiv, PulseDiv } from "../../animation";
-
-import { getAllBooks } from "../../books.data.js";
 
 import { useNavigate } from "react-router-dom";
 
 import Navigation from "../navigation/navigation.component";
-import Form from "../form/form.component";
+import NewsLetter from "../newsletter/newsletter.component";
 
 import Typewriter from "typewriter-effect";
-// import { slideInLeft } from "react-animations";
 
 const Directory = () => {
-  const allBooks = getAllBooks();
+  // const allBooks = getAllBooks();
 
   const navigate = useNavigate();
   const GoToTopics = () => {
@@ -69,38 +63,14 @@ const Directory = () => {
         </div>
       </ProfileContainer>
 
+      <SwiperReviews />
+
       <BookDirectory>
         <h1 onClick={GoToTopics}>Books</h1>
-        <AllBooksContainer>
-          {allBooks
-            .filter((_, idx) => idx < 6)
-            .map((sub) => (
-              <div key={sub.id}>
-                <BookShelfLink to={`/topics/all/${sub.id}`}>
-                  {" "}
-                  <img src={sub.imageUrl} alt={`${sub.name}`} />
-                </BookShelfLink>
-
-                <BookShelfLink to={sub.id}>
-                  <p>{sub.name}</p>
-                </BookShelfLink>
-              </div>
-            ))}
-        </AllBooksContainer>
       </BookDirectory>
+      <SwiperAllBooks />
 
-      <NewsLetter>
-        <h1>Sign up to my newsletter:</h1>
-        <p>
-          To receive This Author’s monthly newsletter, please fill in the form
-          below and click submit.
-        </p>
-        <Form />
-        <p>
-          By clicking SUBMIT, I consent to using my details to send me This
-          Author newsletters.
-        </p>
-      </NewsLetter>
+      <NewsLetter />
     </div>
   );
 };

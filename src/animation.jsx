@@ -12,7 +12,7 @@ export const SlideInLeftDiv = styled.div`
 `;
 
 export const SlideInRightDiv = styled.div`
-  animation: 2s ${slideInRightAnimation};
+  animation: 1s ${slideInRightAnimation};
 `;
 
 export const PulseDiv = styled.div`

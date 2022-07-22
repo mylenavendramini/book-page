@@ -183,6 +183,15 @@ export const BookShelfLink = styled(Link)`
   &:hover {
     color: var(--secondary);
   }
+
+  img {
+    padding: 2rem 2rem 1rem 2rem;
+    width: 100%;
+  }
+
+  p {
+    text-align: center;
+  }
 `;
 
 export const NewsLetter = styled.div`
