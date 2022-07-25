@@ -31,7 +31,7 @@ const topics = [
           "First chapter of the Endless love, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
         jornal: " The Sun",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         id: "this-is-our-story",
@@ -46,7 +46,7 @@ const topics = [
           "First chapter of This is our story, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
         jornal: " Sunday Times",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         id: "about-us",
@@ -61,7 +61,7 @@ const topics = [
           "First chapter of About us, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
         jornal: " Sunday Express",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Ut diam quam nulla porttitor massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis eu non diam.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         id: "about-that-night",
@@ -91,7 +91,7 @@ const topics = [
           "First chapter of About that night, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget.",
         jornal: " Sunday Express",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Ut diam quam nulla porttitor massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis eu non diam.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         id: "the-littlest-bird",
@@ -105,7 +105,7 @@ const topics = [
           "First chapter of the Endless love, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
         jornal: " The Sun",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         id: "the-tale-of-the-monster-falls",
@@ -150,7 +150,7 @@ const topics = [
           "First chapter of the Love at first sight, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
         jornal: " Bella",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
     ],
   },
@@ -186,7 +186,7 @@ const topics = [
           "First chapter of the Endless love, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
         jornal: " The Sun",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         id: "this-is-our-story",
@@ -201,7 +201,7 @@ const topics = [
           "First chapter of This is our story, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
         jornal: " Sunday Times",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         id: "about-us",
@@ -216,7 +216,7 @@ const topics = [
           "First chapter of About us, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
         jornal: " Sunday Express",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Ut diam quam nulla porttitor massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis eu non diam.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         id: "about-that-night",
@@ -252,7 +252,7 @@ const topics = [
           "First chapter of About that night, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget.",
         jornal: " Sunday Express",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Ut diam quam nulla porttitor massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis eu non diam.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         id: "the-littlest-bird",
@@ -266,7 +266,7 @@ const topics = [
           "First chapter of the Endless love, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
         jornal: " The Sun",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
         id: "the-tale-of-the-monster-falls",
@@ -317,7 +317,7 @@ const topics = [
           "First chapter of the Love at first sight, romance book. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Leo integer malesuada nunc vel. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Lectus arcu bibendum at varius vel pharetra vel turpis nunc.",
         jornal: " Bella",
         review:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Fermentum iaculis eu non diam",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
     ],
   },

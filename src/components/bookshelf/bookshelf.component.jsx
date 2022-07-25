@@ -1,6 +1,6 @@
 import {
   BigBookShelfContainer,
-  Teste,
+  BookShelfBox,
   BookShelfContainer,
   BookLink,
   BackButton,
@@ -11,6 +11,7 @@ import { useNavigate } from "react-router-dom";
 import { SlideInLeftDiv, PulseDiv } from "../../animation";
 
 import Typewriter from "typewriter-effect";
+import { SwiperBookShelf } from "../swiper/swiper.components";
 
 const BookShelf = () => {
   const topics = getTopics();
@@ -22,12 +23,12 @@ const BookShelf = () => {
 
   return (
     <BigBookShelfContainer>
-      <Teste>
+      <BookShelfBox>
         <h1>
           <Typewriter
             options={{
               strings: [
-                "The words that come out of the books only come to life when the reader reads them.",
+                "The words only come to life when the reader reads them.",
                 "I'm nothing without the words.",
                 "Reading is the best choice for today.",
               ],
@@ -41,11 +42,9 @@ const BookShelf = () => {
             }}
           />
         </h1>
-        <h2>
-          The words that come out of the books only come to life when the reader
-          reads them.
-        </h2>
-      </Teste>
+        <br />
+        <SwiperBookShelf />
+      </BookShelfBox>
       <SlideInLeftDiv>
         <h1>All This Author's Books</h1>
       </SlideInLeftDiv>

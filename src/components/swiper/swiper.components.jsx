@@ -9,6 +9,7 @@ import { getAllBooks } from "../../books.data.js";
 import {
   AllBooksContainer,
   ReviewsContainer,
+  BookShelfContinaer,
   LeftQuote,
   RightQuote,
 } from "./swiper.styles";
@@ -98,4 +99,31 @@ export const SwiperReviews = () => {
   );
 };
 
+export const SwiperBookShelf = () => {
+  return (
+    <BookShelfContinaer>
+      <Swiper
+        modules={[Autoplay, Pagination]}
+        autoplay={{
+          delay: 10000,
+          disableOnInteraction: false,
+        }}
+        spaceBetween={0}
+        slidesPerView={1}
+        onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
+      >
+        <SwiperSlide>
+          <h2>The words only come to life when the reader reads them.</h2>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h2>I'm nothing without the words.</h2>
+        </SwiperSlide>
+        <SwiperSlide>
+          <h2>Reading is the best choice for today.</h2>
+        </SwiperSlide>
+      </Swiper>
+    </BookShelfContinaer>
+  );
+};
 export default SwiperAllBooks;

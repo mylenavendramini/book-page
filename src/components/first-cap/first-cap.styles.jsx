@@ -73,11 +73,11 @@ export const FirstCapBox = styled.div`
     }
 
     @media only screen and (max-width: 650px) {
-      padding: 0rem 8rem 0rem 8rem;
+      padding: 0rem 6rem 0rem 6rem;
     }
 
     @media only screen and (max-width: 550px) {
-      padding: 0rem 6rem 0rem 6rem;
+      padding: 0rem 3rem 0rem 3rem;
     }
   }
 `;
@@ -100,7 +100,7 @@ export const BackButton = styled(Button)`
   margin: 3rem 0rem 3rem 2rem;
 
   @media only screen and (max-width: 900px) {
-    width: 70%;
+    width: 80%;
   }
 `;
 

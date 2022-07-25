@@ -85,6 +85,10 @@ export const ReviewsContainer = styled.div`
   }
 `;
 
+export const BookShelfContinaer = styled.div`
+  background-color: var(--tertiary);
+`;
+
 export const LeftQuote = styled.div`
   height: 2rem;
   font-size: 15rem;

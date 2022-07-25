@@ -8,7 +8,7 @@ export const BigBookShelfContainer = styled.div`
     text-shadow: 0 0 2px var(--tertiary);
   }
 `;
-export const Teste = styled.div`
+export const BookShelfBox = styled.div`
   margin-top: 5rem;
   background-color: var(--tertiary);
 
@@ -27,8 +27,8 @@ export const Teste = styled.div`
     display: none;
     @media only screen and (max-width: 550px) {
       display: flex;
-      margin-top: -3rem;
-      padding: 0rem 1rem 2rem 1rem;
+      padding: 0rem 1rem 0rem 1rem;
+      margin-top: 0rem;
     }
   }
 
