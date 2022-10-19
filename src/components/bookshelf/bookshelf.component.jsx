@@ -46,7 +46,7 @@ const BookShelf = () => {
         <SwiperBookShelf />
       </BookShelfBox>
       <SlideInLeftDiv>
-        <h1>All This Author's Books</h1>
+        <h1>All Author's Books</h1>
       </SlideInLeftDiv>
       <BookShelfContainer>
         {topics.map(({ name, id }) => (

@@ -2,16 +2,18 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
-  height: 48vh;
+  height: 30vh;
   width: 100%;
   display: flex;
   justify-content: left;
-  /* top: 0;
-  z-index: 1111; */
-  /* background-color: var(--secondary); */
+
   background-image: url("https://i.ibb.co/F39BrCj/template.png");
   background-repeat: no-repeat;
-  background-size: fill;
+  background-size: 1550px 700px;
+
+  /* top: 0;
+    z-index: 1111; */
+  /* background-color: var(--secondary); */
 
   h1 {
     display: none;

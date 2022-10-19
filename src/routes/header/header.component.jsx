@@ -15,13 +15,9 @@ const Header = () => {
   return (
     <Fragment>
       <HeaderContainer>
-        <HeaderLink to={"/"}>
-          This <br /> Author
-        </HeaderLink>
+        <HeaderLink to={"/"}>Author</HeaderLink>
 
-        <h1>
-          This <br /> Author
-        </h1>
+        <h1>Author</h1>
         <div ref={node}>
           <Burger
             isBurgerOpen={isBurgerOpen}

@@ -48,9 +48,9 @@ const Directory = () => {
           <Typewriter
             options={{
               strings: [
-                "With love, This Author",
-                "Con amor, This Author",
-                "Com amor, This Author",
+                "With love,Author",
+                "Con amor, Author",
+                "Com amor, Author",
               ],
               autoStart: true,
               loop: true,
@@ -59,7 +59,7 @@ const Directory = () => {
               cursorClassName: "typewritingcursor",
             }}
           />
-          <h4>Love, This Author</h4>
+          <h4>Love, Author</h4>
         </div>
       </ProfileContainer>
 
