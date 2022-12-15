@@ -50,8 +50,8 @@ $ npm -v
 Start with cloning this repo on your local machine:
 
 ```bash
-$ git clone https://github.com/mylenavendramini/Projects-List.git
-$ cd Projects-List
+$ git clone https://github.com/mylenavendramini/book-page.git
+$ cd book-page
 ```
 
 ## Usage
