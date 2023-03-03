@@ -1,71 +1,73 @@
-# Getting Started with Create React App
+# This Author
+
+[View website](https://this-author.netlify.app/)
+
+My first website using React. With this project, I put into practice everything I learned about components, hooks, roots and much more. The site is a display of a writer's books and biography. Using React was a good choice to show a page with all the books, another with some categories and another with the book itself.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+- Home page:
 
-In the project directory, you can run:
+![Screenshot 2022-11-30 at 15 42 58](https://user-images.githubusercontent.com/93344031/204845912-ddc38ba0-c407-4aab-8899-d707e2c1ec20.png)
+![Screenshot 2022-11-30 at 15 46 50](https://user-images.githubusercontent.com/93344031/204845984-a784aea5-4eaa-44b4-99d4-4e5fa803d3e5.png)
 
-### `npm start`
+- Books page:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot 2022-11-30 at 15 47 16](https://user-images.githubusercontent.com/93344031/204845998-e4f3520d-9cf7-42d7-abee-526534c41d83.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- All books:
 
-### `npm test`
+![Screenshot 2022-11-30 at 15 47 56](https://user-images.githubusercontent.com/93344031/204846068-4f0aeeaa-5160-4c2f-9f86-83f6b19b9591.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Clicking in one of the books:
 
-### `npm run build`
+![Screenshot 2022-11-30 at 15 48 10](https://user-images.githubusercontent.com/93344031/204846113-64beeebd-ab53-4ef4-a23b-f35bde0751ad.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Responsive website:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 2022-11-30 at 15 43 32](https://user-images.githubusercontent.com/93344031/204847263-4e31e8d6-609b-468a-a0f7-ffe50442c977.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Going to a specific book you can read the first chapter:
 
-### `npm run eject`
+https://user-images.githubusercontent.com/93344031/204846125-dd09994e-893d-4d4a-8331-9262fdfc63ce.mov
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Biography page:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://user-images.githubusercontent.com/93344031/204846143-859bcead-95fb-4b33-b35c-a5cbe8866bd1.mov
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Prerequisites
 
-## Learn More
+This project requires NPM. Check if you have it:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+$ npm -v
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
 
-### Code Splitting
+Start with cloning this repo on your local machine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+$ git clone https://github.com/mylenavendramini/book-page.git
+$ cd book-page
+```
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+$ npm start
+```
 
-### Making a Progressive Web App
+### Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+JAVASCRIPT | REACT
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+##### Mylena Vendramini
 
-### Deployment
+Take a look at my portfolio at www.mylenavendramini.com. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# book-page
+You can find me on [Linkedin](https://www.linkedin.com/in/mylenavendramini/) and [Twitter](https://twitter.com/mmvendramini). 
